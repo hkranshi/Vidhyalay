@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context="com.example.vidhyalay.ui.home1.Home">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            android:paddingTop="5dp"
+                android:paddingBottom="40dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/postrecyclerView"
+            app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout5"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:orientation="horizontal"
+            android:paddingTop="?attr/actionBarSize"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <Button
+                android:id="@+id/button11"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:backgroundTint="#FFFEFE"
+                android:text="Create Post"
+                android:textColor="@color/black"
+                android:textSize="8sp"
+                app:icon="@drawable/post_foreground"
+                app:iconGravity="textTop"
+                app:iconSize="23dp"
+                app:iconTint="#090000" />
+
+            <Button
+                android:id="@+id/button14"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:backgroundTint="#FFFFFF"
+                android:text="Video Series"
+                android:textColor="@color/black"
+                android:textSize="8sp"
+                app:icon="@drawable/video"
+                app:iconGravity="textTop"
+                app:iconTint="@color/black" />
+
+            <Button
+                android:id="@+id/button12"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:backgroundTint="#FFFFFF"
+                android:paddingTop="10dp"
+                android:text="Notes"
+                android:textColor="#000000"
+                android:textSize="10sp"
+                app:icon="@drawable/note"
+                app:iconGravity="textTop"
+                app:iconTint="#000000" />
+
+            <Button
+                android:id="@+id/button13"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:backgroundTint="#FFFFFF"
+                android:text="Previous Papers"
+                android:textColor="#190101"
+                android:textSize="5sp"
+                app:icon="@drawable/file"
+                app:iconGravity="textTop"
+                app:iconTint="#000000" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:background="#E8CB4D"
+            android:fontFamily="@font/boogaloo"
+            android:text="All  Video Lectures"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toTopOf="@+id/recycle"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout5"></TextView>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="36dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout5" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FDD835"
+            android:fontFamily="sans-serif"
+            android:text="Post"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/recycle" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

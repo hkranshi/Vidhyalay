@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:id="@+id/imageViewnotes"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:src="@drawable/notes"/>
+
+        <TextView
+            android:id="@+id/namet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:background="#5F2EC1"
+            android:textSize="14sp"
+            android:textColor="@color/post_background"
+            android:textAlignment="center"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

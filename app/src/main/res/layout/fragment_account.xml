@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ECD0AE">
+<LinearLayout
+   android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="#DEE3A0"
+    tools:context=".ui.account.accountFragment">
+
+ <!--   <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FFB6B6"-->
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ECD0AE"
+        tools:ignore="MissingClass">
+
+        <ImageView
+            android:id="@+id/circleImage"
+            android:layout_width="match_parent"
+            android:layout_height="210dp"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="10dp"
+            android:paddingTop="?attr/actionBarSize"
+            android:src="@drawable/user"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/hg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="28dp"
+            android:fontFamily="sans-serif-black"
+            android:text="Name"
+            android:textColor="#8E24AA"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/circleImage" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textAlignment="center"
+            android:textColor="#500ADD"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.283"
+            app:layout_constraintStart_toEndOf="@+id/hg"
+            app:layout_constraintTop_toBottomOf="@+id/circleImage" />
+
+        <TextView
+            android:id="@+id/txtgmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="44dp"
+            android:fontFamily="sans-serif-black"
+            android:text="Email id"
+            android:textColor="#8E24AA"
+            app:layout_constraintEnd_toEndOf="@+id/hg"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/hg"
+            app:layout_constraintTop_toBottomOf="@+id/hg" />
+
+        <TextView
+            android:id="@+id/idDisplay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="46dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textAlignment="center"
+            android:textColor="#490DC3"
+            app:layout_constraintEnd_toEndOf="@+id/name"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/txtgmail"
+            app:layout_constraintTop_toBottomOf="@+id/name" />
+
+        <Button
+            android:id="@+id/editProfilr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:background="#66147C"
+            android:backgroundTint="#8E24AA"
+            android:foregroundTint="@color/purple_500"
+            android:text="Edit Profile"
+            android:textColor="#F3EFEF"
+            android:textSize="10sp"
+            app:layout_constraintEnd_toStartOf="@+id/idDisplay"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/txtgmail"
+            app:layout_constraintTop_toBottomOf="@+id/txtgmail"
+            app:strokeColor="@color/purple_500" />
+
+        <TextView
+            android:id="@+id/uytrsfdg"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:drawableRight="@drawable/ic_baseline_schedule_24"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:paddingLeft="20dp"
+            android:paddingRight="10dp"
+            android:text="Schedule"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editProfilr" />
+
+        <TextView
+            android:id="@+id/rdghg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:drawableRight="@drawable/common_google_signin_btn_icon_dark_focused"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:paddingLeft="20dp"
+            android:paddingRight="10dp"
+            android:text="Current Affairs"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/uytrsfdg" />
+
+        <TextView
+            android:id="@+id/setting"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:paddingLeft="20dp"
+            android:paddingRight="10dp"
+            android:text="Setting"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/rdghg" />
+
+  <!--      <Button
+            android:id="@+id/lout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Log Out"
+            android:textColor="#F6F4F4"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/setting" />-->
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Change Password"
+            android:textSize="10sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.53"
+            app:layout_constraintStart_toEndOf="@+id/editProfilr"
+            app:layout_constraintTop_toBottomOf="@+id/idDisplay" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/floatingActionButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="44dp"
+            android:clickable="true"
+            app:layout_constraintBottom_toBottomOf="@+id/circleImage"
+            app:layout_constraintEnd_toEndOf="@+id/circleImage"
+            app:srcCompat="@drawable/ic_photo_camera_black_48dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</LinearLayout>
+</ScrollView>

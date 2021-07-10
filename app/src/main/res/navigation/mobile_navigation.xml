@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.vidhyalay.ui.home1.Home"
+
+        tools:layout="@layout/fragment_home1"
+
+        >
+        <action
+            android:id="@+id/action_navigation_home_to_navigation_download"
+            app:destination="@id/navigation_download" />
+        <action
+            android:id="@+id/action_navigation_home_to_navigation_notes"
+            app:destination="@id/navigation_notes" />
+        <action
+            android:id="@+id/action_navigation_home_to_navigation_test"
+            app:destination="@id/navigation_test" />
+        <action
+            android:id="@+id/action_navigation_home_to_navigation_account"
+            app:destination="@id/navigation_account" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_download"
+        android:name="com.example.vidhyalay.ui.download.downloadFragment"
+        tools:layout="@layout/fragment_download" >
+        <action
+            android:id="@+id/action_navigation_download_to_navigation_notes"
+            app:destination="@id/navigation_notes" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_notes"
+        android:name="com.example.vidhyalay.ui.notes.notesFragment"
+        tools:layout="@layout/fragment_notes" >
+        <action
+            android:id="@+id/action_navigation_notes_to_navigation_test"
+            app:destination="@id/navigation_test" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_test"
+        android:name="com.example.vidhyalay.ui.test.Test_Fragment"
+
+        tools:layout="@layout/fragment_test_" >
+        <action
+            android:id="@+id/action_navigation_test_to_navigation_account"
+            app:destination="@id/navigation_account" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_account"
+        android:name="com.example.vidhyalay.ui.account.accountFragment"
+
+        tools:layout="@layout/fragment_account" >
+        <action
+            android:id="@+id/action_navigation_account_to_navigation_home"
+            app:destination="@id/navigation_home" />
+    </fragment>
+</navigation>

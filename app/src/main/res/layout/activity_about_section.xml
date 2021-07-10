@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutSection">
+
+    <TextView
+        android:id="@+id/about1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#40290D"
+        android:padding="10dp"
+        android:paddingTop="?attr/actionBarSize"
+        android:text="This is a Study App where you will get all your Study Material at very ease. If you login as a Teacher you can help the Students by uploading Vedio Lectures and by creating the Posts.\n
+     So,that when Student login they can use these lectures for their benefits and use the Posts to clear their doubts.\n
+    This app contain the Current Affairs section for both Teacher as well as Students.\n
+             You can login using the email id and Password.\n"
+        android:textAlignment="gravity"
+        android:textColor="@color/post_background"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

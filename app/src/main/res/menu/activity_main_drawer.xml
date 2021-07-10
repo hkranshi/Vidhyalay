@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/home"
+            android:title="@string/menu_home1" />
+        <item
+            android:id="@+id/live_session"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/live_sessions" />
+        <item
+            android:id="@+id/upload"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/upload" />
+        <item
+            android:id="@+id/schedule"
+            android:icon="@drawable/schedule"
+            android:title="@string/schedule1" />
+    </group>
+</menu>

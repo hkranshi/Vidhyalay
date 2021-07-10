@@ -1,0 +1,99 @@
+<resources>
+    <string name="app_name">Vidhyalay</string>
+    <string name="link">Register</string>
+    <string name="new_user_register">New User? <a href="">Register</a></string>
+    <string name="title_activity_navigation">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main2">MainActivity</string>
+    <string name="title_activity_bottom">MainActivity</string>
+    <string name="notes">Notes</string>
+    <string name="download">Download</string>
+    <string name="test_series">Test Series</string>
+    <string name="account">Account</string>
+    <string name="title_activity_main3">MainActivity3</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+
+    <string name="menu_home1">Home</string>
+
+    <string name="live_sessions">Live Sessions</string>
+    <string name="upload">Upload</string>
+    <string name="schedule1">Schedule</string>
+    <string name="forgot_password"><a href=" ">Forgot Password?</a></string>
+    <string name="select_date">Select Date</string>
+    <string name="androchunk">Androchunk</string>
+    <string-array name="course">
+        <item>10th (Matriculation)</item>
+        <item>12th (Secondary School)</item>
+        <item>B Tech</item>
+        <item>Upsc</item>
+        <item>Gate</item>
+        <item>IIT JAM</item>
+    </string-array>
+    <string-array name="Tenth">
+        <item>Science(English Medium)</item>
+        <item>Arts</item>
+        <item>(Science)Hindi Medium</item>
+    </string-array>
+    <string-array name="Twelth">
+        <item>PCM</item>
+        <item>PCB</item>
+        <item>COMMERCE</item>
+    </string-array>
+    <string-array name="Btech">
+        <item>Mechanical Engineering</item>
+        <item>Civil Engineering </item>
+        <item>Electronics and Communication Engineering </item>
+        <item>Computer Science Engineering </item>
+    </string-array>
+
+    <string-array name="UPSC">
+        <item>Indian Administrative Service (IAS)</item>
+        <item>Indian Police Service(IPS)</item>
+    </string-array>
+    <string-array name="iit_jam">
+        <item>Mathematics</item>
+        <item>Chemistry</item>
+        <item>Physics</item>
+    </string-array>
+    <string name="title_activity_teach">Teach</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_drawer_student">drawer_Student</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="about">This is a Study App where you will get all your Study Material at very ease. If you login as a Teacher you can help the Students by uploading Vedio Lectures and by creating the Posts.
+    <br> So,that when Student login they can use these lectures for their benefits and use the Posts to clear their doubts.</br>
+    <br>This app contain the Current Affairs section for both Teacher as well as Students.</br>
+             <br>You can login using the email id and Password.</br> </string>
+    <string name="share">Share</string>
+    <string name="about1">About</string>
+    <string name="alog_out">Log out</string>
+
+</resources>

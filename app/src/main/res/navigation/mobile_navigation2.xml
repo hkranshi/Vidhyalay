@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation2"
+    app:startDestination="@+id/home">
+
+    <fragment
+        android:id="@+id/home"
+        android:name="com.example.vidhyalay.ui.home.HomeFragment"
+        android:label="@string/menu_home1"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/live_session"
+        android:name="com.example.vidhyalay.ui.Iive_Session.liveSession"
+        android:label="@string/live_sessions"
+        tools:layout="@layout/fragment_live_session" />
+
+    <fragment
+        android:id="@+id/upload"
+        android:name="com.example.vidhyalay.ui.Upload.Upload"
+        android:label="@string/upload"
+        tools:layout="@layout/fragment_upload" />
+    <fragment
+        android:id="@+id/schedule"
+        android:name="com.example.vidhyalay.ui.Schedule1.Schedule"
+        android:label="@string/schedule1"
+        tools:layout="@layout/fragment_schedule" />
+</navigation>

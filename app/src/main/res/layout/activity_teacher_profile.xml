@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="10dp"
+        android:backgroundTint="#155A97"
+        android:paddingTop="?attr/actionBarSize"
+        tools:context=".Teacher_Profile">
+
+        <ImageView
+            android:id="@+id/circleImage"
+            android:layout_width="match_parent"
+            android:layout_height="201dp"
+            android:layout_centerInParent="true"
+            android:paddingTop="?attr/actionBarSize"
+            android:src="@drawable/user"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="44dp"
+            android:hint="Name"
+            android:textAlignment="center"
+            android:textColor="#0E2CE3"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/circleImage" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="36dp"
+            android:hint="Email Id"
+            android:textAlignment="center"
+            android:textColor="#0E2CE3"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:backgroundTint="#162AA8"
+            android:text="Edit Profile"
+            android:textColor="#FFFEFE"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView17" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="38dp"
+            android:drawableLeft="@drawable/common_google_signin_btn_icon_dark"
+            android:text="Current Affairs"
+            android:textAlignment="center"
+            android:textColor="#132DCA"
+            app:layout_constraintEnd_toEndOf="@+id/button8"
+            app:layout_constraintStart_toStartOf="@+id/button8"
+            app:layout_constraintTop_toBottomOf="@+id/button8" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/floatingActionButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            app:layout_constraintBottom_toBottomOf="@+id/circleImage"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.95"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/circleImage"
+            app:layout_constraintVertical_bias="1.0"
+            app:srcCompat="@drawable/plus" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

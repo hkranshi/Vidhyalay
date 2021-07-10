@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.Vidhyalay.NoActionBar">
+    <item name="colorPrimary">#C1094C</item>
+    <item name="colorPrimaryDark">@color/Yellow</item>
+    <item name="colorAccent">#F38C0A</item>
+    </style>
+</resources>
