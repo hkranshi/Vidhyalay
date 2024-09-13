@@ -4,7 +4,7 @@ Vidhyalay is an Android application designed to provide educational resources an
 
 The application includes a registration and login system where users must verify their email address using a randomly generated token before they can access the app. The project uses Java for Android development and is structured to offer a secure and user-friendly experience.
 
-Features
+#### Features
 1. Two-User Mode
 Teacher Mode:
 Teachers can create test series and upload their lecture videos.
@@ -22,12 +22,15 @@ Each login mode presents a different interface and functionality based on the us
 4. Educational Resources by Domain
 The application provides study materials for various domains, making it easier for students preparing for different exams to access the right resources.
 
-GATE:
+##### GATE:
 Subdomains include Mechanical Engineering, Computer Science Engineering (CSE), Civil Engineering, and more.
-UPSC:
+
+##### UPSC:
 Study materials and resources for Civil Services aspirants.
-CAT:
+
+##### CAT:
 Resources for students preparing for MBA entrance exams like CAT.
+
 This categorization of study materials ensures that students can find relevant content specific to their domain of study, further streamlining the learning experience.
 
 5. Firebase Integration
@@ -45,13 +48,16 @@ Firebase Database: For managing authentication, real-time data storage, and retr
 Java Random Token Generator: Used for generating verification tokens for email-based registration.
 Version Control (Git & GitHub): The project is hosted on GitHub for collaboration and version control.
 
-#Installation
+# Installation
 
-#Prerequisites
-Android Studio: Ensure that Android Studio is installed to run the application.
-Java 8 or higher: The application is developed using Java, so a suitable Java environment is required.
-Firebase Account: You'll need a Firebase project configured for authentication and database services.
-Steps to Install
+# Prerequisites
+ Android Studio: Ensure that Android Studio is installed to run the application.
+ 
+ Java 8 or higher: The application is developed using Java, so a suitable Java environment is required.
+ 
+ Firebase Account: You'll need a Firebase project configured for authentication and database services.
+ 
+# Steps to Install
 
 1.Clone the Repository:
 
@@ -71,9 +77,9 @@ Ensure that Firebase Authentication and Firestore Database are enabled.
 Connect your Android device or start an Android emulator.
 Click Run to install the app on your device or emulator.
 
-#Usage
+# Usage
 
-Teacher Login
+## Teacher Login
 
 Register as a teacher using your email.
 
@@ -85,7 +91,7 @@ Access the interface to upload lecture videos, create test series, and categoriz
 
 Manage the uploaded resources (edit or delete).
 
-Student Login
+## Student Login
 
 Register as a student using your email.
 
@@ -97,7 +103,7 @@ Access the available educational resources and test series.
 
 Browse through resources specific to your domain (e.g., Mechanical Engineering, Civil Services, MBA).
 
-Folder Structure
+# Folder Structure
 
 Vidhyalay/
 
@@ -119,7 +125,7 @@ Vidhyalay/
 
 
 
-#Future Enhancements
+# Future Enhancements
 
 Real-time Notifications: Notify students when new content is uploaded.
 
@@ -129,10 +135,10 @@ Progress Tracking: Students can track their progress in the test series.
 
 Domain-based Study Plans: Provide structured study plans for each domain (GATE, UPSC, CAT) to help students prepare effectively.
 
-#License
+# License
 
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
-#Contributions
+# Contributions
 
 Feel free to open issues or submit pull requests to contribute to this project. Contributions are welcome!  
