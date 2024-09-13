@@ -45,9 +45,9 @@ Firebase Database: For managing authentication, real-time data storage, and retr
 Java Random Token Generator: Used for generating verification tokens for email-based registration.
 Version Control (Git & GitHub): The project is hosted on GitHub for collaboration and version control.
 
-Installation
+#Installation
 
-Prerequisites
+#Prerequisites
 Android Studio: Ensure that Android Studio is installed to run the application.
 Java 8 or higher: The application is developed using Java, so a suitable Java environment is required.
 Firebase Account: You'll need a Firebase project configured for authentication and database services.
@@ -71,7 +71,7 @@ Ensure that Firebase Authentication and Firestore Database are enabled.
 Connect your Android device or start an Android emulator.
 Click Run to install the app on your device or emulator.
 
-Usage
+#Usage
 
 Teacher Login
 
@@ -119,7 +119,7 @@ Vidhyalay/
 
 
 
-Future Enhancements
+#Future Enhancements
 
 Real-time Notifications: Notify students when new content is uploaded.
 
@@ -129,10 +129,10 @@ Progress Tracking: Students can track their progress in the test series.
 
 Domain-based Study Plans: Provide structured study plans for each domain (GATE, UPSC, CAT) to help students prepare effectively.
 
-License
+#License
 
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
-Contributions
+#Contributions
 
 Feel free to open issues or submit pull requests to contribute to this project. Contributions are welcome!  
