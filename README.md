@@ -1,5 +1,4 @@
-
-Vidhyalay
+# Vidhyalay
 Overview
 Vidhyalay is an Android application designed to provide educational resources and study materials for students and teachers. The app offers two modes of access: one for students and one for teachers. Each user type has distinct permissions, with teachers able to upload lecture videos and create test series, while students can only view these resources.
 
@@ -101,5 +100,4 @@ License
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
 Contributions
-Feel free to open issues or submit pull requests to contribute to this project. Contributions are welcome!
-
+Feel free to open issues or submit pull requests to contribute to this project. Contributions are welcome!  
