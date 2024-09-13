@@ -44,60 +44,95 @@ Android SDK: The development kit for building Android applications.
 Firebase Database: For managing authentication, real-time data storage, and retrieval.
 Java Random Token Generator: Used for generating verification tokens for email-based registration.
 Version Control (Git & GitHub): The project is hosted on GitHub for collaboration and version control.
+
 Installation
+
 Prerequisites
 Android Studio: Ensure that Android Studio is installed to run the application.
 Java 8 or higher: The application is developed using Java, so a suitable Java environment is required.
 Firebase Account: You'll need a Firebase project configured for authentication and database services.
 Steps to Install
-Clone the Repository:
-bash
-Copy code
+
+1.Clone the Repository:
+
 git clone https://github.com/hkranshi/Vidhyalay.git
 cd Vidhyalay
-Open in Android Studio:
+
+2.Open in Android Studio:
 Open Android Studio and select File > Open.
 Navigate to the cloned repository and open the project.
-Configure Firebase:
+
+3.Configure Firebase:
 Create a Firebase project in your Firebase Console.
 Download the google-services.json file from your Firebase project and place it in the app/ directory.
 Ensure that Firebase Authentication and Firestore Database are enabled.
-Build and Run:
+
+4.Build and Run:
 Connect your Android device or start an Android emulator.
 Click Run to install the app on your device or emulator.
+
 Usage
+
 Teacher Login
+
 Register as a teacher using your email.
+
 Verify your email with the token sent to your inbox.
+
 Login as a teacher.
+
 Access the interface to upload lecture videos, create test series, and categorize resources by domain (e.g., GATE, UPSC, CAT).
+
 Manage the uploaded resources (edit or delete).
+
 Student Login
+
 Register as a student using your email.
+
 Verify your email with the token sent to your inbox.
+
 Login as a student.
+
 Access the available educational resources and test series.
+
 Browse through resources specific to your domain (e.g., Mechanical Engineering, Civil Services, MBA).
+
 Folder Structure
-plaintext
-Copy code
+
 Vidhyalay/
+
 │
 ├── app/                    # Android application source code
+
 │   ├── src/
+
 │   ├── res/                # Resources (layout files, drawable assets)
+
 │   ├── manifests/
+
 │   └── java/               # Java source code (activities, adapters, etc.)
+
 │
 ├── README.md               # Project documentation
+
 └── build.gradle            # Gradle build configuration
+
+
+
 Future Enhancements
+
 Real-time Notifications: Notify students when new content is uploaded.
+
 Discussion Forums: Allow students and teachers to discuss and collaborate.
+
 Progress Tracking: Students can track their progress in the test series.
+
 Domain-based Study Plans: Provide structured study plans for each domain (GATE, UPSC, CAT) to help students prepare effectively.
+
 License
+
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
 Contributions
+
 Feel free to open issues or submit pull requests to contribute to this project. Contributions are welcome!  
