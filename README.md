@@ -1,5 +1,5 @@
 # Vidhyalay
-Overview
+#### Overview
 Vidhyalay is an Android application designed to provide educational resources and study materials for students and teachers. The app offers two modes of access: one for students and one for teachers. Each user type has distinct permissions, with teachers able to upload lecture videos and create test series, while students can only view these resources.
 
 The application includes a registration and login system where users must verify their email address using a randomly generated token before they can access the app. The project uses Java for Android development and is structured to offer a secure and user-friendly experience.
@@ -22,14 +22,11 @@ Each login mode presents a different interface and functionality based on the us
 4. Educational Resources by Domain
 The application provides study materials for various domains, making it easier for students preparing for different exams to access the right resources.
 
-##### GATE:
-Subdomains include Mechanical Engineering, Computer Science Engineering (CSE), Civil Engineering, and more.
+GATE: Subdomains include Mechanical Engineering, Computer Science Engineering (CSE), Civil Engineering, and more.
 
-##### UPSC:
-Study materials and resources for Civil Services aspirants.
+UPSC: Study materials and resources for Civil Services aspirants.
 
-##### CAT:
-Resources for students preparing for MBA entrance exams like CAT.
+CAT: Resources for students preparing for MBA entrance exams like CAT.
 
 This categorization of study materials ensures that students can find relevant content specific to their domain of study, further streamlining the learning experience.
 
